@@ -1,3 +1,6 @@
+# Remeber
+Remember is an application that allows users to fetch the most popular repos on GitHub. The intention behind this application is for users to to be able to be to be apart of and study mainstream conversations of tech/software. This application serves over 500,000+ users backed with an incredibly well designed database + AWS/Terraform features.
+
 # Requirements
 - Node v18
 - PostgreSQL v14
