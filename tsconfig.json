@@ -1,0 +1,24 @@
+{
+   "compilerOptions": {
+
+   // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   // Typechecking
+
+      "noImplicitAny": false,
+      "strict": true,
+      "exactOptionalPropertyTypes": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+
+   // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   // Compiler
+
+      "noEmit": false,          // REQUIRED: `"noEmit": false
+      "module": "esnext",       // REQUIRED: "module": "esnext"
+      "outDir": "./public/src",
+      "rootDir": "./src",
+      "target": "esnext",
+      "lib": ["DOM", "ESNext"]
+
+   }
+}

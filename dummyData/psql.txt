@@ -1,0 +1,15 @@
+psql \
+  --host=${psql_host} \
+  --port=5432 \
+  --dbname=postgres \
+  --username=postgres \
+  --password \
+  -c "\copy remember.workspaces (name) FROM workspaces.tsv"
+
+psql \
+  --host=${psql_host} \
+  --port=5432 \
+  --dbname=postgres \
+  --username=postgres \
+  --password \
+  -c "\copy remember.bookmarks (workspace, name, userName, repo, stars, forks, issuesOpen, issuesClosed, created, updated, url) FROM bookmarks.tsv"
